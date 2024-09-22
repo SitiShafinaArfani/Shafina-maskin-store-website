@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASKIN STORE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff66b2;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            max-width: 400px;
+            margin: auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #ff66b2;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #ff66b2;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>HUBUNGI KAMI</h1>
+    <nav>
+        <a href="beranda.html">Beranda</a>
+        <a href="makeup.html">Makeup</a>
+        <a href="skincare.html">Skincare</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About Us</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Kontak Informasi</h2>
+    <p>Jika Anda memiliki pertanyaan, silakan hubungi kami melalui informasi berikut:</p>
+    <p>Email: info@maskinstore.com</p>
+    <p>Telepon: (021) 123-4567</p>
+</section>
+
+<section>
+    <h2>Kirim Pesan</h2>
+    <form action="#" method="post">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <input type="submit" value="Kirim">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Maskin Store. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>
